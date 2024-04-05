@@ -1,0 +1,184 @@
+*,
+*:before,
+*:after{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+header{
+     background-color: #075894;
+     height: 150px;
+     width: 1920px;
+}
+h1{
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: serif;
+    height: 40px;
+    margin-top: 60px;
+    text-align: center;
+    width: 1800px;
+}
+main{
+    height: 800px;
+    width: 1920px;
+}
+.right_content{
+}
+nav ul{
+      border-bottom: 2px solid #000000;
+      border-top: 2px solid #000000;
+      height: 40px;
+      margin: 10px;
+      text-align: center;
+}
+nav ul li{
+      display: inline-block;
+      line-height: 35px;
+      margin: 0 10px;
+      
+}
+nav ul li a{
+      color: #000000;
+      position: relative;
+      text-decoration: none;
+       
+}
+nav ul li a:after{
+        background-color: #000000;
+        bottom:  -5px;
+        content: " ";
+        height: 3px;
+        left: 0;
+        position: absolute;
+}
+a:hover{
+        color: #000000;
+        font-weight: bold;
+}
+a:hover:after{
+       width: 100%;
+}
+.best_recipe{
+      height: 340px;
+      width: 1476px;
+}
+#menu{
+       display: inline-block;
+       height: 340px;
+       line-height: 30px;
+       width: 481px;
+}
+.donut_content{
+       margin: 0 8px;
+}
+div article img{
+      height: 250px;
+      width: 481px;
+}
+.recipe_link{
+      text-align: center;
+}
+.recipe_link a{
+      text-decoration: none;
+}
+.weekly_container{
+     background-color: #80A9B7;
+     height: 330px;
+     margin-top: 40px;
+     width: 1476px;
+}
+.content_week{
+      display: inline-block;
+      height:  270px;
+      margin: 30px;
+      vertical-align: top;
+      width: 855px
+}
+.weekly_container img{
+       height: 270px;
+       width: 855px;
+}
+.img_content{ 
+     color: #FFFFFF;
+     display: inline-block;
+     height: 250px;
+     margin: 15px 0px;
+     padding-top: 20px;
+     width: 500px;
+     text-align: center;
+}
+.tittle_week,.sub_tittle{
+      line-height: 40px;
+}
+.button_view{
+      margin: 15px;
+      padding: 10px;
+}
+.left_content{
+      display: inline-block;
+      height: 780px;
+      margin: 10px 0;
+      width: 430px;
+}
+.side_top{
+      background:linear-gradient( to top, #FFFFFF, #FFA07A);
+      border: 2px solid #000000;
+      height: 130px;
+      line-height: 50px;
+      position: fixed;
+      right: 5px;
+      text-align: center;
+      top: 160px;
+      width: 430px;
+}
+.side_middle{
+       background-color: #FFA07A;
+       color: #FFFFFF;
+       margin-top: 135px;
+       padding-bottom: 10px;
+}
+.side_about{
+      line-height: 45px;
+      text-align: center;
+}
+.side_info{
+      margin: 0 10px;
+}
+.side_bottom{
+      border: 2px solid #80A9B7;
+      line-height: 30px;
+      margin-top: 10px;
+      text-align: center;
+}
+.side_recipe li{
+       list-style: none;
+}
+.side_recipe li a{
+       color: #000000;
+}
+
+footer{
+      background-color: #000000;
+      color: #FFFFFF;
+      display: inline-block;
+      height: 70px;
+      padding: 20px;
+      width: 1920px;
+}
+#email{
+      height: 30px;
+      width: 200px;
+}
+#subscribe{
+       background-color: #FFA07A;
+       color: #FFFFFF;
+       height: 30px;
+       width: 100px;
+}
+footer h5{
+      float: right;
+      margin-top: 10px;
+}
