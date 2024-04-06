@@ -1,0 +1,24 @@
+.highlight{
+      background-color: #FFFF00;
+}
+a:hover{
+      color: #FFFFFF;
+}
+a{
+  color: #FA7090;
+}
+li:nth-child(1){
+  background-color: #A8700C;
+}
+li:nth-child(2){
+  background-color: #FF00FF;
+}
+li:nth-child(3){
+  background-color: #88AE09;
+}
+li:nth-child(4){
+  background-color: #41A890;
+}
+li:nth-child(5){
+  background-color: #00FF7F;
+}
