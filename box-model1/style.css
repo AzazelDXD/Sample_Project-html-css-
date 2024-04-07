@@ -1,0 +1,32 @@
+
+header{
+    background-color: #FF0000;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    width: 600px;
+  
+}
+section{
+    background-color: #000000;
+    display:inline-block;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    width: 125px;
+}
+article{
+    background-color: #008000;
+    display: inline-block;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    width: 445px;
+}
+footer{
+    background-color: #AE0000;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    width: 600px;
+}
