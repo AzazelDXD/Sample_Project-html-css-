@@ -1,0 +1,220 @@
+*,
+*:before,
+*:after{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height: 1080px;
+     justify-content: space-between;
+     width: 1920px;
+}
+header{
+     align-items: center;
+     background-color: #075894;
+     display: flex;
+     flex-wrap: wrap;
+     height: 14%;
+     justify-content: center;
+     margin: 0 1%;
+     padding: 0 1%;
+     width: 100%;
+  
+}
+
+h1{
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: serif;
+    text-align: center;
+    width: 80%;
+}
+main{
+    display: flex;
+    height: 75%;
+    justify-content: space-between;
+    margin: 0 1%;
+    width: 100%;
+}
+section{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     justify-content: space-between;
+     width: 77%;
+}
+nav{
+      height: 10%;
+      width: 100%;
+}
+nav ul{
+      align-items: center;
+      border-bottom: 2px solid #000000;
+      border-top: 2px solid #000000;
+      display: flex;
+      flex-wrap: wrap;
+      height: 80%;
+      justify-content: space-evenly;
+      margin-left: 10%;
+      width: 80%;
+}
+nav ul li{
+      list-style: none;
+}
+nav ul li a{
+      color: #000000;
+      position: relative;
+      text-decoration: none;
+       
+}
+nav ul li a:after{
+        background-color: #000000;
+        bottom:  -5px;
+        content: " ";
+        height: 10%;
+        left: 0;
+        position: absolute;
+}
+a:hover{
+        color: #000000;
+        font-weight: bold;
+}
+a:hover:after{
+       width: 100%;
+}
+div{
+      display: flex;
+      height: 45%;
+      width: 100%;
+}
+div article{
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+       justify-content: space-evenly;
+       width: 100%;
+}
+div article img{
+     height: 80%;
+     width: 98%;
+}
+.recipe_link{
+     height: 5%;
+     
+}
+.recipe_link a{
+      text-decoration: none;
+}
+.week_content{
+     align-items: center;
+     background-color: #80A9B7;
+     display: flex;
+     height: 40%;
+     margin-right: 1%;
+     justify-content: space-around;
+     width: 100%;
+}
+.week_layout{
+      height: 80%;
+      width: 60%;
+}
+.week_content img{
+       height: 100%;
+       width: 100%;
+}
+.week_details{
+     align-items: center;
+     color: #FFFFFF;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height: 90%;
+     justify-content: space-around;
+     width: 30%;
+}
+.button_view{
+     padding: 2%;
+}
+.side_layout{ 
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      width: 23%;
+}
+.side_top{
+      align-items: center;
+      background:linear-gradient( to top, #FFFFFF, #FFA07A);
+      border: 2px solid #000000;
+      display: flex;
+      flex-direction: column;
+      height: 7%;
+      justify-content: space-around;
+      position: fixed;
+      right: 0;
+      text-align: center;
+      top: 6.5%;
+      width: 28.5%;
+}
+.side_middle{
+       align-items: center;
+       background-color: #FFA07A;
+       color: #FFFFFF;
+       display: flex;
+       flex-direction: column;
+       height: 38%;
+       justify-content: space-evenly;
+       padding: 1%;
+  
+}
+.side_bottom{
+      align-items: center;
+      border: 2px solid #80A9B7;
+      display: flex;
+      flex-direction: column;
+      height: 40%;
+      justify-content: flex-start;
+      padding: 10%;
+}
+.side_recipe li{
+       list-style: none;
+}
+.side_recipe li a{
+       color: #000000;
+}
+footer{
+      align-items: center;
+      background-color: #000000;
+      border-bottom-color: #FFFFFF;
+      color: #FFFFFF;
+      display: flex;
+      height: 9%;
+      justify-content: space-between;
+      margin: 0 1%;
+      padding: 0 1%;
+      width: 100%;
+}
+footer p {
+      margin-left: 1%;
+}
+#email{
+      height: 100%;
+      padding: 2%;
+      width:  60%;
+}
+#subscribe{
+       background-color: #FFA07A;
+       color: #FFFFFF;
+       height: 100%;
+       padding: 2%;
+       width: 33%;
+}
+footer h5{
+       margin-right: 2%;
+}
