@@ -1,0 +1,30 @@
+img {
+    width: 200px;
+}
+nav{
+    background-color: #00FFFF;
+}
+#contact{
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+header{
+    background-color: #FFA500;
+}
+section{
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+article{
+    background-color: #008000;
+    color: #FFFFFF;
+}
+.spotlight{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px dashed #FF0000;
+}
+footer{
+    background-color: #000000;
+    color: #008000;
+}
