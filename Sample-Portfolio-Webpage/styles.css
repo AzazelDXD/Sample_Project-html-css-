@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin: 10px;
+  padding: 10px;
+  max-width:1920px;
+  min-height: 350px;
+}
+nav{
+    background-color: #000000;
+    display: inline-block;
+    height:50px;
+    line-height: 50px;
+    padding: 0 20px;
+    width: 100%;
+}
+header h3{
+  color: #FFFFFF;
+  display: inline-block;
+}
+nav ul{
+  display: inline-block;
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+}
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+header article{
+  background-image: url(images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 300px;
+  color: #FFFFFF;
+  max-width: 100%;
+  padding: 0 7%;
+  text-align: center;
+}
+h1{
+  padding-top:15%;
+}
+main{
+  margin: 10px;
+  padding: 10px;
+  max-width:1920px;
+  min-height: 350px;
+}
+.about{
+  line-height: 30px;
+  margin-top: 20px;
+  width:100%;
+  
+}
+.about article figure{
+  display: inline-block;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 40%;
+}
+.about article figure img{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.about article figcaption{
+  display: inline-block;
+  margin: 10px;
+  width:50%;
+}
+h2,footer{
+  text-align: center;
+}
+.skills{
+  line-height: 30px;
+  margin-top:20px;
+  width: 100%;
+}
+div{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width:100%;
+}
+div article{
+  margin: 20px 0;
+  min-height: 200px;
+  width:30%;
+}
+div article img{
+  height: 50px;
+  width: 50px;
+}
+.js{
+  border-radius: 50%;
+}
+.projects{ 
+  margin-top: 10px;
+  width: 100%;
+}
+.projects article{
+  width: 100%;
+}
+.projects article figure{
+  display: inline-block;
+  margin: 20px;
+  padding: 50px;
+  width: 30%;
+  
+}
+.projects article figure img{
+  display:inline-block;
+  height: 200px;
+  width: 50%;
+}
+
+.projects article figcaption{
+  display: inline-block;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 45px;
+  width:50%;
+  vertical-align: top;
+}
+
+footer{
+  background-color: #1E90FF;
+  min-height: 300px;
+  line-height: 30px;
+  margin: 10px;
+  width:100%;
+}
+footer h3{
+  padding-top: 1%;
+}
+#letter{
+  margin: 10px 10px 0;
+  padding: 10px;
+}
+#button{
+  background-color: #FF0000;
+  color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width:600px){
+  div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    width:100%;
+  }
+  .about article figure{
+    display: inline-block;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+  }
+  .about article figcaption{
+    display: inline-block;
+    margin: 10px;
+    width:100%;
+  }
+  .projects article figure{
+    display: inline-block;
+    margin: 10px;
+    padding: 50px;
+    width: 100%;
+    
+}
+.projects article figure img{
+  display:inline-block;
+  height: 200px;
+  width: 100%;
+}
+.projects article figcaption{
+  display: inline-block;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 45px;
+  text-align: center;
+  vertical-align: top;
+  width:100%;
+}
+}
