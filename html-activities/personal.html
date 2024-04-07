@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Personal Website</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <h3>Leaves</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>My Collection</h1>
+                <p>Collecting and preserving leaves is a great way to learn tree identification. <br />It is also a method that can be used to document the different varieties of trees on your property or to inventory trees at a park or school campus as a class project.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                 <img src="Maple.jpg" alt="Maple leaves" width="100" height="100">
+                            </td>
+                            <td>
+                                 Simple
+                            </td>
+                            <td>
+                                A North American native, red maple trees form an oval crown of bright green leaves that turn fiery red in autumn.
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <img src="Clover.jpg" alt="Clover leaves" width="100" height="100">
+                            </td>
+                            <td>
+                                Compound
+                            </td>
+                            <td>
+                                A clover is a small plant with bright green leaves and white or purple flowers.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="Chesnut.jpg" alt="Chesnut leaves" width="100" height="100">
+                            </td>
+                            <td>
+                                Palmately Compound
+                            </td>
+                            <td>
+                                The American chestnut has long, canoe-shaped leaves with a prominent lance-shaped tip and hooked teeth around the edges of the leaf. The leaf is dull or “matte” instead of shiny or waxy in texture.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="footer">
+                <form action="submit_application.php" method="post">
+                    <label for="name">Name:(optional)</label><br>
+                    <input type="text" id="name" name="name" /><br><br>
+
+                    <p>Gender:</p><br>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="male">Female</label><br><br>
+
+                    <label for="answer">Are you a collector?</label><br>
+                    <select id="answer" name="answer" required >
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+
+                    <p>What are your collection?</p>
+                    <input type="checkbox" id="collection1" name="collection1" value="rocks">
+                    <label for="collection1">Rocks</label><br>
+                    <input type="checkbox" id="collection2" name="collection2" value="flowers">
+                    <label for="collection2">Flowers</label><br>
+                    <input type="checkbox" id="collection3" name="collection3" value="shell">
+                    <label for="collection3">Shell</label><br><br>
+                    
+                    <input type="submit" value="Submit" />
+                
+                </form>
+                <p>Copyright &copy;2024 Leaves</p>
+            </div>
+        </div>
+    </body>
+</html>
