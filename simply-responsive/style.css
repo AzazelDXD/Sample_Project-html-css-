@@ -1,0 +1,38 @@
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  height: auto;
+  justify-content: space-around;
+  width:100%;
+  
+}
+section{
+     background-color: #0000FF;
+     border: 2px solid #000000;
+     box-sizing: border-box;
+     height: 300px;
+     width:20%;
+  
+    
+}
+@media screen and (max-width:1500px){
+  section{
+    background-color: #0000FF;
+    width:50%;
+    
+  }
+}
+@media screen and (max-width: 1000px){
+  section{
+    background-color: #008000;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px){
+  section{
+    background-color: #FF0000;
+    width:100%;
+  }
+}
